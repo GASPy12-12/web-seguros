@@ -1,0 +1,11 @@
+*.zip
+node_modules/
+
+# Herramientas internas (no son parte de la web)
+graphify-out/
+.claude/
+CLAUDE.md
+
+# Borradores y versiones viejas
+experimento-apple/
+version-anterior/

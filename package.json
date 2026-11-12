@@ -1,0 +1,13 @@
+{
+  "name": "cotizador-seguros",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cotizador de autos bajo el punto de venta de un productor (San Cristóbal Sitio Seguro)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

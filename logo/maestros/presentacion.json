@@ -1,0 +1,36 @@
+{
+  "brand": "GV",
+  "tagline": "Asesores de riesgos",
+  "brief": "Identidad para un asesor de riesgos de Posadas, Misiones, que quiere una marca discreta y elegante, que no parezca una compañía de seguros y que no muestre nombres propios.",
+  "adjectives": ["elegante", "discreta", "confiable", "cercana"],
+  "criteria": "Que se lea GV, que funcione a 16 px, a un color y sobre fondo oscuro, y que evite el escudo típico del rubro.",
+  "industry": "services",
+  "mockups": ["business-card", "signage", "website", "social", "app-icon", "sticker"],
+  "nav": ["Coberturas", "Preguntas", "Contacto"],
+  "brand_color": "#12264A",
+  "greyscale": false,
+  "designer": "Propuesta",
+  "round": 2,
+  "concepts": [
+    {
+      "name": "Arco",
+      "symbol": "gv-simbolo.svg",
+      "lockup": "gv-horizontal-PROVISORIO.svg",
+      "symbol_on_tile": "gv-simbolo-fondo-oscuro.svg",
+      "lockup_on_dark": "gv-horizontal-fondo-oscuro-PROVISORIO.svg",
+      "tile_color": "#12264A",
+      "idea": "La G abraza, y su barra se convierte en la V: protege y da el visto bueno.",
+      "rationale": [
+        "Mantiene la idea del logo anterior, pero ahora se lee GV y no CV",
+        "Transmite protección sin el escudo típico del rubro",
+        "Sin degradados: funciona a un color y en tamaño chico"
+      ]
+    }
+  ],
+  "recommendation": "Arco: azul marino y plateado, discreto y elegante.",
+  "next_steps": [
+    "Definir el nombre de la marca",
+    "Convertir el texto a trazos en las versiones finales",
+    "Aplicar el símbolo en la web"
+  ]
+}

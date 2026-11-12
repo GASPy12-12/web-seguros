@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Guía de marca GV</title>
+<style>
+  :root { --navy: #12264A; --ink: #1C2740; --muted: #5A6579; --line: #DDE2EA; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #fff; color: var(--ink); font: 15px/1.5 "Segoe UI", Arial, sans-serif; }
+  main { max-width: 980px; margin: 0 auto; padding: 40px 24px; }
+  h1 { font: 400 34px Georgia, serif; color: var(--navy); margin: 0 0 4px; }
+  h2 { font: 400 20px Georgia, serif; color: var(--navy); margin: 0 0 10px; }
+  p { margin: 0 0 8px; }
+  .lead { color: var(--muted); margin-bottom: 26px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 26px 34px; }
+  @media (max-width: 720px) { .grid { grid-template-columns: 1fr; } }
+  .row { display: flex; gap: 12px; flex-wrap: wrap; }
+  .tile { flex: 1; min-width: 120px; border-radius: 10px; border: 1px solid var(--line); padding: 18px; display: grid; place-items: center; }
+  .tile img { width: 84px; height: 84px; display: block; }
+  .dark { background: var(--navy); border-color: var(--navy); }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; padding: 7px 8px 7px 0; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+  .sw { display: inline-block; width: 15px; height: 15px; border-radius: 3px; vertical-align: -2px; margin-right: 7px; border: 1px solid var(--line); }
+  ul { margin: 0; padding-left: 18px; }
+  .note { margin-top: 28px; padding: 13px 16px; background: #EEF1F5; border-radius: 8px; }
+  .grad { height: 42px; border-radius: 8px; margin-bottom: 4px; }
+  .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Guía de marca GV</h1>
+  <p class="lead">La G abraza, y su barra se convierte en la V: protege y da el visto bueno.</p>
+
+  <div class="grid">
+    <section>
+      <h2>Versiones del símbolo</h2>
+      <div class="row">
+        <div class="tile"><img src="maestros/gv-simbolo.svg" alt="Símbolo a dos colores" /></div>
+        <div class="tile dark"><img src="maestros/gv-simbolo-fondo-oscuro.svg" alt="Símbolo sobre fondo oscuro" /></div>
+        <div class="tile"><img src="simbolo/gv-simbolo-black.svg" alt="Símbolo a un color" /></div>
+      </div>
+      <p style="margin-top:10px">La versión lisa es la principal y funciona en cualquier lado. Usá la de fondo oscuro sobre azul o negro, y la de un color para sellos, grabados o impresión en blanco y negro. La versión con brillo metálico (<code>gv-simbolo-metalico</code>) es para pantallas y piezas especiales.</p>
+    </section>
+
+    <section>
+      <h2>Colores</h2>
+      <table>
+        <tr><th>Color</th><th>HEX</th><th>RGB</th><th>CMYK aprox.</th></tr>
+        <tr><td><span class="sw" style="background:#12264A"></span>Azul marino</td><td>#12264A</td><td>18, 38, 74</td><td>76, 49, 0, 71</td></tr>
+        <tr><td><span class="sw" style="background:#0A1730"></span>Azul noche</td><td>#0A1730</td><td>10, 23, 48</td><td>79, 52, 0, 81</td></tr>
+        <tr><td><span class="sw" style="background:#5F8FC7"></span>Azul acero</td><td>#5F8FC7</td><td>95, 143, 199</td><td>52, 28, 0, 22</td></tr>
+        <tr><td><span class="sw" style="background:#667385"></span>Plata oscura</td><td>#667385</td><td>102, 115, 133</td><td>23, 14, 0, 48</td></tr>
+        <tr><td><span class="sw" style="background:#C4CCD6"></span>Plata clara</td><td>#C4CCD6</td><td>196, 204, 214</td><td>8, 5, 0, 16</td></tr>
+      </table>
+      <p style="margin-top:10px">La V siempre va plateada. Sobre fondos oscuros, la G va en azul acero y la V en plata clara; sobre fondos claros, la G va en azul marino y la V en plata oscura. Los valores CMYK son una conversión de partida: pedí una prueba de color a la imprenta. Para un plateado real, pedí tinta metálica o laminado.</p>
+      <div class="cols" style="margin-top:12px">
+        <div><div class="grad" style="background:linear-gradient(135deg,#0A1730,#173664)"></div>Azul noche: #0A1730 a #173664</div>
+        <div><div class="grad" style="background:linear-gradient(135deg,#F2F5F8,#AEB8C5,#E3E8EE)"></div>Plata brillante: #F2F5F8, #AEB8C5, #E3E8EE</div>
+        <div><div class="grad" style="background:linear-gradient(135deg,#9AA6B5,#667385)"></div>Plata oscura: #9AA6B5 a #667385</div>
+        <div><div class="grad" style="background:linear-gradient(135deg,#9CC0E6,#4F7FB5)"></div>Azul acero: #9CC0E6 a #4F7FB5</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Espacio y tamaño</h2>
+      <ul>
+        <li><b>Espacio libre:</b> dejá alrededor del símbolo al menos un cuarto de su altura, sin texto ni imágenes.</li>
+        <li><b>Tamaño mínimo a dos colores:</b> 32 px en pantalla y 10 mm en impresión.</li>
+        <li><b>Más chico que eso:</b> usá el archivo <code>gv-simbolo-chico.svg</code>, con trazo más grueso y un solo color.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Qué evitar</h2>
+      <ul>
+        <li>Estirarlo, rotarlo o cambiarle los colores.</li>
+        <li>Agregarle sombras, contornos o degradados distintos de los de esta guía.</li>
+        <li>Ponerlo sobre fotos o fondos recargados sin un recuadro liso.</li>
+        <li>Usar la plata brillante sobre fondos claros, porque casi no se ve.</li>
+      </ul>
+    </section>
+  </div>
+
+  <p class="note"><b>Pendiente:</b> las versiones con texto están marcadas como PROVISORIO. Usan una letra del sistema y el texto todavía no está convertido a trazos. Se terminan cuando se defina el nombre de la marca y su tipografía.</p>
+</main>
+</body>
+</html>
